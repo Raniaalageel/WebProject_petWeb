@@ -1,0 +1,400 @@
+
+
+
+* {
+    margin: 0;
+	padding:0;
+  
+    box-sizing: border-box;
+    
+}
+
+body {
+   
+    background-color: #ececea;
+}
+.wrapper bg-white mt-sm-5{
+    top: 50px;
+position: absolute;
+width:270px;}
+
+.wrapper {
+    padding: 50px 50px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 40px auto;
+    max-width: 600px;
+    background-color: white;
+}
+
+.l{
+    margin: 40px;
+}
+h4 {
+    letter-spacing: 1px;
+    font-weight: 400
+}
+/*.oo{
+    position: relative;
+    top: 0;
+    left: 50px;
+   padding: 90px;
+    margin: 10px;
+}
+a{
+ 
+ 
+    text-decoration: none;
+    background-color: #ADD8E6;
+  
+    
+   border-radius: 30px;
+  
+    text-decoration: none;
+      color: #531c03;
+      position:relative; z-index:2;
+      padding: 20px;
+      margin: 10px;
+  
+}  */
+
+.iimg img{
+    width: 150px; 
+    height:  150px 
+
+
+}
+
+
+/*img-section p,
+#deactivate p {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#img-section b,
+#img-section button,
+#deactivate b {
+    font-size: 20px
+}*/
+
+label {
+   /*  margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #cc8c5c;
+    padding-left: 3px;
+    padding-bottom:6px;
+    padding-top:6px;*/
+
+    display: flex;
+    color: #cc8c5c;
+    font-size: 20px;
+    font-weight: 500;
+  flex-direction: row;
+  justify-content: left;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+
+   
+}
+#uploadBtn{
+   
+    width:80px;
+    height:20px;
+    background-color: black;
+    color:white;
+    border:1px solid #3498db;
+    background-color: black;
+    color:white;
+    padding: 4px;
+    border-radius: 2px;
+    }
+.settings-section{
+    display: flex;
+    color: #cc8c5c;
+    font-size: 15px;
+    font-weight: 500;
+  flex-direction: row;
+  justify-content: left;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+  
+
+.form-control {
+    border-radius: 4px;
+    padding-left: 3px;
+    
+}
+.bg-light form-control{
+	width:100%;
+	padding: 10px 0;
+	margin: 7px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	top:100px;
+	outline: none;
+	background: transparent;
+
+}
+input[placeholder] {
+    font-weight: 00
+   
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1.5px solid #0779e4
+}
+
+select {
+    
+    width: 40%;
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 10px
+}
+
+select:focus {
+    outline: none
+}
+
+.button {
+    background-color: #ADD8E6;
+    color: #010c16
+    
+  
+}
+
+button:hover  {
+    background-color: #888c91;
+    color: rgb(0, 0, 0)
+}
+
+.btn-primary {
+    background-color: #FFE4C4
+ 
+
+}
+
+.danger {
+    background-color: rgba(218, 32, 32, 0.637);
+    color: #000000;
+    border: 1px solid #ddd
+}
+
+.danger:hover {
+    background-color: #f50000;
+   
+}
+
+@media(max-width:576px) {
+    .wrapper {
+        padding: 50px 20px
+    }
+
+    #deactivate {
+        line-height: 18px
+    }
+}
+
+
+input{
+    width:100%;
+    padding: 10px 0;
+    margin: 7px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    top:100px;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+
+}
+.pic{
+    position:absolute;
+    margin-left: 250px;  /* very important for the image to be centered */
+    left:58%;
+    bottom:44px;
+    top: 0;
+    transform: scaleY(-1);
+
+    transform: translateY(10%);
+    }
+    .pic2{
+        position:absolute;
+        margin-left: 500px;  /* very important for the image to be centered */
+        right:75%;
+        bottom:33px;
+        transform: translateY(10%);
+        }
+    
+          .btn1{
+        
+          font-size: 15px;
+          border: #010c16;
+          
+          }
+          #photo{
+           
+            width: 100%;
+        }
+        
+       
+        
+        #uploadBtn{
+            height: 40px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            color: wheat;
+            line-height: 30px;
+            font-family: sans-serif;
+            font-size: 15px;
+            cursor: pointer;
+            display: none;
+        }
+        label.filebutton {
+            width:100px;
+            height:100px;
+            overflow:hidden;
+            position:relative;
+            background-color:#ccc;
+        }
+        
+        label span input {
+            z-index: 999;
+            line-height: 0;
+            font-size: 50px;
+            position: absolute;
+            top: -1px;
+            left: -700px;
+            opacity: 0;
+            
+            
+            cursor: pointer;
+         
+            margin: 0;
+            padding:0;
+        }
+
+
+.form-submitright{
+
+    top: 200;
+    right: 200;
+    border:0;
+    width:110px;
+    height:0%;
+  border-color: gray;
+    color: black;
+    border-radius: 30px;
+   
+  
+}
+
+.form-submitright:hover{
+    text-decoration: underline;
+}
+button{
+   
+	height:10%;
+    
+	margin: 5px auto;
+    width:110px;
+    padding:10px 10px;
+	border:0;
+	outline: none;
+	border-radius: 30px;
+}
+
+#b{
+    text-align: center;  
+    
+   }
+   #bpb{
+     padding: 15px;
+     
+   
+    
+   }
+#bb{
+    border-radius:0px;
+}
+/*p{
+   color: #000000;
+    font-size: 12px;
+    background-color: #ADD8E6;
+    border-radius: 30px;
+}*/
+textarea {
+    height: 6em;
+    width: 37em;
+}
+.mm{
+    font-size: 15px;
+}
+.pp{
+    background-color: #ffffff;
+}
+.io a{
+    z-index: 100;
+          
+}
+.icons{
+    border-radius: 1px;
+    margin-bottom: 100px;
+  
+    width: 50px;  
+  height: 50px;  
+  text-align: right;  
+  
+  padding: 15px;
+  position: relative;
+  z-index: 9;
+  top: 30px;
+}
+.icons img{
+    width: 100px;  
+    height: 100px;
+}
+label.filebutton {
+    width:120px;
+    height:40px;
+    overflow:hidden;
+    position:relative;
+    background-color:#ccc;
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+}
