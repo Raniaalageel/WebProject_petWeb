@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="EditPage.css">
+
+         <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+    </head>
+    <body>
+
+
+
+    <header>
+       
+        <a href="#" class="logo"><img src="logo.png" alt="logo" height="50rem" ><span style="font-size: 40px;">Webet</span></a>
+    
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+    
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li  ><a href="home-owner.html">Home</a>
+                  </li>
+                  
+                  
+               <li><a href="pageone.html">Services</a></li> 
+               <li><a href="AboutUs.html">About Us</a></li> 
+                <li class="move-right-btn" ><a href="#"id="profile"><i class="fas fa-user" ></i></a>
+                    <ul class="sub-menu" id="sub-menu-arrow2"> 
+                        <li ><a href="Owner_profile.html">View Profile</a></li>
+					<li><a href="My_pets_list.html">Pets</a></li>
+					<li><a href="main.html">Sign Out</a></li>
+                
+                      </ul></li>
+              </ul>
+            
+            <!-- ****if you're working on a pet owner view replace <i class="fa-solid fa-user-doctor"> with <i class="fa-solid fa-user"></i>  -->
+    
+    
+        </nav>
+    
+    </header>
+  
+    <section>
+  
+
+
+
+        <div class="wrapper bg-white mt-sm-5">
+            <h4 class="pb-4 border-bottom" style="font-size: 40px; color: #ADD8E6; text-align: center; font-family: 'Poppins',sans-serif;">Edit My Appointment</h4>
+
+            <div class="d-flex align-items-start py-3 border-bottom"> <img src="jen.png" class="img" alt="dog picture">
+                <div class="pl-sm-4 pl-2" id="img-section">
+                    <input class = "btn1"type="file" id="file" accept="image/png, image/jpeg" required />
+                </div>
+
+
+
+
+
+            </div>
+            <form class="inputA">
+            <div class="py-2">
+                <div class="row py-2">
+                    <div class="col-md-6"> <label for="firstname">Name</label> <input type="text" class="bg-light form-control" placeholder="Lisa"required> </div>
+                    <div class="col-md-6 pt-md-0 pt-3"> <label for="lastname">Appointment date</label> <input type="datetime" class="bg-light form-control" placeholder="10/3/2022 - 12:15PM" required> </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-md-6"> <label for="email">Service</label> <input type="text" class="bg-light form-control" placeholder="grooming" required> </div>
+
+                </div>
+                <div class="row py-2">
+                   
+                        <div class="col-md-6"> <label for="country">Are you Sure you want to edit ?</label> <select name="country" id="country" class="bg-light">
+                            <option value="Yes" selected>Yes</option>
+                            <option value="No">No</option>
+
+                        </select> </div>
+                        <label for="Medical">Add Your Note</label>
+                        <textarea rows="4" cols="50"  class="form-control" placeholder=" Add your Note here ." style="border: solid 1px gray;"  ></textarea>
+
+                    
+                            </form>
+                          </div>
+
+                          <div class="end" >
+                            <input id="submit" value="Save" type="submit" class="toogle" >
+                            <input id="reset" value="Cancel" type="reset" >
+                            </div>  
+                
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="box-container">
+            
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="home-owner.html">Home</a>
+                <a href="pageone.html">Services</a>
+                <a href="AboutUs.html">About US</a>    
+            </div>
+            <div class="box">
+                <h3>Email Us</h3>  
+               
+                <div class="info">
+                    
+                    <i class="fas fa-envelope"></i>
+                                <a href="mailto:StudentID@student.ksu.edu.sa">Email</a>
+                </div>
+               
+            </div>
+            <div class="box">
+                <h3>Contact Information</h3>
+                <div class="info">
+                    <i class="fas fa-phone"></i>
+                    <p>+123-456-789 <br> +111-222-3333</p>
+                </div>
+                   
+            </div>
+            
+        </div>
+        <h1 class="credit">&copy; copyright @ 2022 by software Engineers</h1>
+    </div>
+
+
+    </body>
+</html>
