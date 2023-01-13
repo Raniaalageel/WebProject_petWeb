@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        /* Back buttom css */
+
+
+
+.icons2{
+    border-radius: 1px;
+    margin-bottom: 100px;
+  
+    width: 50px;  
+  height: 50px;  
+  text-align: right;  
+  
+  padding: 15px;
+  position: absolute;
+  z-index: 9;
+  bottom:  180px;
+}
+.icons2 img{
+    width: 100px;  
+    height: 100px;
+}
+
+
+
+.icons img{
+    border-radius: 1px;
+margin-bottom: 100px;
+
+width: 100px;  
+height: 100px;  
+text-align: right;  
+left: 860px;
+padding: 15px;
+position: relative;
+z-index: 9;
+top: 5px;
+bottom: 88px;
+  }
+
+
+  .icons2{
+    border-radius: 1px;
+   /* margin-bottom: 100px;*/
+  
+    width: 50px;  
+  height: 50px;  
+  text-align: right;  
+  
+  padding: 15px;
+  position: absolute;
+  z-index: 9;
+  bottom:  290px;
+  
+}
+.icons2 img{
+    position: absolute;
+    width: 100px;  
+    height: 100px;
+    right: 250px;
+    margin-top: 10px;
+    bottom: 80px;
+}
+
+
+
+    </style>
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="styleR.css">
+</head>
+<body>
+<div class="out">
+    <div class="container">
+        <div class="icons2">
+            <a href="main.html"><img src="back-removebg-preview.png"></a>
+        </div>
+        <h1 class="rgtitle">Hello &amp Welcome!</h1>
+         <form class="inputA" action="reg.php" method="post">
+
+           
+            <input type="text" name="fname" class="input" placeholder="First Name" >
+            <input type="text" name="lname" class="input" placeholder="Last Name" >
+            <input type="text" name="email" class="input" placeholder="Email" >
+            <input type="password" name="pw" class="input" placeholder="Password" >
+            <input type="number" name="phone" class="input" placeholder="Phone Number" >
+            <p class="txt"><b>Choose your gender:</b></p>
+            <br>
+            <div class="radio">
+        <input type="radio" name="gender" value="male" checked>
+        <label for="male">male</label><br>
+        <input type="radio" name="gender" value="female">
+         <label for="female">female</label>
+        </div>
+        <p class="pic"><b>Add your picture(optional):</b></p>  
+        <input type="file" id="myFile" name="img">
+
+
+       <div class="btnb" >
+        <div id="btn"></div>
+        <input type="submit" class="toggle" value="Register"></input>
+        </div>
+
+        <p class="old"> Already have an account? <a href="loginpage.html">
+        Login
+        </a></p>
+        
+
+        </form>
+  </div>
+  </div>
+</body>
+</html>
